@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useRef, useState } from 'react';
+import useElementOnScreen from './utils/intersectionObserver'
 
 function App() {
+      const [containerRef, isVisible] = useElementOnScreen({
+      root:null,
+      rootMargin: "0px",
+      threshold:1,
+    })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="isVisible">{isVisible ? "Now you see me!": "Now you don't"}</div>
+      <div className="section"></div>
+      <div className="box" ref={containerRef}></div>
     </div>
   );
 }
