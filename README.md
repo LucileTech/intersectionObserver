@@ -16,7 +16,7 @@
 ## Features
 
 This application/site was created as a submission to a [Chingu Pair Programming Session](https://www.chingu.io/) challenge. 
-We played around with [Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) 
+We played around with [Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) and [React](https://reactjs.org/)
 
 ## How To Use
 
@@ -41,11 +41,11 @@ $ npm start
 
 Elijah
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+-  [Website](https://www.elibarreto.com/)
+-  [GitHub](https://github.com/ElijahBcodes)
 
 Lucile
 
 
-- Website [your-website.com](https://lucile-tech.com)
-- GitHub [@your-username](https://github.com/LucileTech)
+-  [Website](https://lucile-tech.com)
+-  [GitHub](https://github.com/LucileTech)
