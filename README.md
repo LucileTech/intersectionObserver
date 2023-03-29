@@ -1,6 +1,6 @@
 
 
-<h1 align="center">{Intersection Observer}</h1>
+<h1 align="center">Intersection Observer</h1>
 
 
 ## Overview
